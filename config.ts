@@ -10,14 +10,14 @@ import bs58 from "bs58";
 // PRIV KEY OF FEEPAYER
 export const payer = Keypair.fromSecretKey(
   bs58.decode(
-    "", 
+    "4ZykpUyueK4G2B83gvpiBwPnevdrnAbmjdsPHNvCJ8XzNTS6UzdaewPeyRy9DJSngcP9iqGu8BwJE4bp6PQyXYHf", 
   ),
 );
 
 
 // ENTER YOUR RPC
 export const rpc =
-  ""; 
+  "https://mainnet.helius-rpc.com/?api-key=262824f5-365d-4662-9a2c-24964070d3fe"; 
 
 
 
